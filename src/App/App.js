@@ -89,7 +89,7 @@ export default function App() {
     //------------------------------------------------------
     //  Set Defaults for REMOTE setup
     //------------------------------------------------------
-    let port = '9003'
+    let port = '59003'
     let w_Client = REMOTE_CLIENT
     let w_Database = REMOTE_DATABASE
     let w_Server = REMOTE_SERVER
@@ -101,27 +101,27 @@ export default function App() {
     if (windowport) {
       port = windowport
       //------------------------------------------------------
-      //  9003 - Local Client --> Remote Server --> Remote Database
+      //  59003 - Local Client --> Remote Server --> Remote Database
       //------------------------------------------------------
-      if (port === '9003') {
+      if (port === '59003') {
         w_Client = LOC_REMOTE_REMOTE_CLIENT
         w_Server = REMOTE_SERVER
         w_Database = REMOTE_DATABASE
         w_URL = REMOTE_SERVERURL
       }
       //------------------------------------------------------
-      //  9013 - Local Client --> Local Server --> Remote Database
+      //  59013 - Local Client --> Local Server --> Remote Database
       //------------------------------------------------------
-      if (port === '9013') {
+      if (port === '59013') {
         w_Client = LOC_LOC_REMOTE_CLIENT
         w_Server = LOC_LOC_REMOTE_SERVER
         w_Database = REMOTE_DATABASE
         w_URL = LOC_LOC_REMOTE_SERVERURL
       }
       //------------------------------------------------------
-      //  8003 - Local Client --> Local Server --> Local Database
+      //  58003 - Local Client --> Local Server --> Local Database
       //------------------------------------------------------
-      if (port === '8003') {
+      if (port === '58003') {
         w_Client = LOC_LOC_LOC_CLIENT
         w_Server = LOC_LOC_LOC_SERVER
         w_Database = LOC_LOC_LOC_DATABASE
