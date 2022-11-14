@@ -1,7 +1,7 @@
 {
   "name": "quizclient",
   "homepage": "https://richardstuart007.github.io/quizclient021",
-  "version": "1.21.0",
+  "version": "1.10.1",
   "private": true,
   "dependencies": {
     "@date-io/date-fns": "^2.15.0",
