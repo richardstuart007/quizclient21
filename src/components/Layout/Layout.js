@@ -107,7 +107,7 @@ export default function Layout({ handlePage, pageCurrent, children }) {
   //
   //  Add clientserver
   //
-  const ShowClientServer = JSON.parse(sessionStorage.getItem('App_Settings_DevMode'))
+  let ShowClientServer = JSON.parse(sessionStorage.getItem('App_Settings_DevMode'))
   const App_Settings_Client = JSON.parse(sessionStorage.getItem('App_Settings_Client'))
   const App_Settings_Server = JSON.parse(sessionStorage.getItem('App_Settings_Server'))
   const App_Settings_Database = JSON.parse(sessionStorage.getItem('App_Settings_Database'))
@@ -130,6 +130,10 @@ export default function Layout({ handlePage, pageCurrent, children }) {
     User_Admin = User_Settings_UserAdmin
     User_Switched = User_Settings_UserSwitch
   }
+  //
+  //  Show server info if in Admin login
+  //
+  if (User_Admin) ShowClientServer = true
   //...................................................................................
   //.  Render the component
   //...................................................................................
