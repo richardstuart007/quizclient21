@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/quizclient021/static/css/main.ea8a1b15.css",
+    "main.js": "/quizclient021/static/js/main.00cff03c.js",
+    "static/media/cards.svg": "/quizclient021/static/media/cards.df180aef78bb238e74cf9539e77eb021.svg",
+    "index.html": "/quizclient021/index.html",
+    "static/media/spade.svg": "/quizclient021/static/media/spade.d35e1e334a714f3460af5b31449b6cdf.svg",
+    "static/media/heart.svg": "/quizclient021/static/media/heart.e2ee33da8671dea60d75e572b194c062.svg",
+    "static/media/club.svg": "/quizclient021/static/media/club.8817eea4ccd3fc60089f59f56e21d5cc.svg",
+    "static/media/diamond.svg": "/quizclient021/static/media/diamond.21f9534ad562811fe9c5e95c0460c629.svg",
+    "static/media/Ukraine.svg": "/quizclient021/static/media/Ukraine.6c463095630d3ff4d9d39986a2ad630c.svg",
+    "main.ea8a1b15.css.map": "/quizclient021/static/css/main.ea8a1b15.css.map",
+    "main.00cff03c.js.map": "/quizclient021/static/js/main.00cff03c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea8a1b15.css",
+    "static/js/main.00cff03c.js"
+  ]
+}
